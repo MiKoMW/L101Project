@@ -1,0 +1,320 @@
+Results for CWS
+
+10 ep baseline
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	3918
+=== TOTAL DELETIONS:	5189
+=== TOTAL SUBSTITUTIONS:	12197
+=== TOTAL NCHANGE:	21304
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103101
+=== TOTAL TRUE WORDS RECALL:	0.833
+=== TOTAL TEST WORDS PRECISION:	0.844
+=== F MEASURE:	0.839
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.521
+=== IV Recall Rate:	0.853
+
+17 ep early stop
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	4569
+=== TOTAL DELETIONS:	5359
+=== TOTAL SUBSTITUTIONS:	13238
+=== TOTAL NCHANGE:	23166
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103582
+=== TOTAL TRUE WORDS RECALL:	0.822
+=== TOTAL TEST WORDS PRECISION:	0.828
+=== F MEASURE:	0.825
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.498
+=== IV Recall Rate:	0.842
+
+10 ep baseline crf
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	6893
+=== TOTAL DELETIONS:	5824
+=== TOTAL SUBSTITUTIONS:	15807
+=== TOTAL NCHANGE:	28524
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	105441
+=== TOTAL TRUE WORDS RECALL:	0.793
+=== TOTAL TEST WORDS PRECISION:	0.785
+=== F MEASURE:	0.789
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.374
+=== IV Recall Rate:	0.818
+
+40 ep baseline crf
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	5578
+=== TOTAL DELETIONS:	2901
+=== TOTAL SUBSTITUTIONS:	10811
+=== TOTAL NCHANGE:	19290
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	107049
+=== TOTAL TRUE WORDS RECALL:	0.869
+=== TOTAL TEST WORDS PRECISION:	0.847
+=== F MEASURE:	0.858
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.492
+=== IV Recall Rate:	0.892
+
+
+10 ep rad
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	3641
+=== TOTAL DELETIONS:	5015
+=== TOTAL SUBSTITUTIONS:	11719
+=== TOTAL NCHANGE:	20375
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	102998
+=== TOTAL TRUE WORDS RECALL:	0.840
+=== TOTAL TEST WORDS PRECISION:	0.851
+=== F MEASURE:	0.845
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.519
+=== IV Recall Rate:	0.859
+
+20 ep rad
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	3564
+=== TOTAL DELETIONS:	5190
+=== TOTAL SUBSTITUTIONS:	11871
+=== TOTAL NCHANGE:	20625
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	102746
+=== TOTAL TRUE WORDS RECALL:	0.837
+=== TOTAL TEST WORDS PRECISION:	0.850
+=== F MEASURE:	0.843
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.530
+=== IV Recall Rate:	0.855
+###	../../../../20eponred.txt	3564	5190	11871	20625	104372	102746	0.837	0.850	0.843	0.058	0.530	0.855
+
+30 ep rad
+=== SUMMARY:
+=== TOTAL INSERTIONS:	3846
+=== TOTAL DELETIONS:	5028
+=== TOTAL SUBSTITUTIONS:	12188
+=== TOTAL NCHANGE:	21062
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103190
+=== TOTAL TRUE WORDS RECALL:	0.835
+=== TOTAL TEST WORDS PRECISION:	0.845
+=== F MEASURE:	0.840
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.510
+=== IV Recall Rate:	0.855
+###	../../../../30eponred.txt	3846	5028	12188	21062	104372	103190	0.835	0.845	0.840	0.058	0.510	0.855
+
+10ep subcharLSTM
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	2062
+=== TOTAL DELETIONS:	3917
+=== TOTAL SUBSTITUTIONS:	7142
+=== TOTAL NCHANGE:	13121
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	102517
+=== TOTAL TRUE WORDS RECALL:	0.894
+=== TOTAL TEST WORDS PRECISION:	0.910
+=== F MEASURE:	0.902
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.582
+=== IV Recall Rate:	0.913
+
+
+30 ep subchar
+=== SUMMARY:
+=== TOTAL INSERTIONS:	2033
+=== TOTAL DELETIONS:	3992
+=== TOTAL SUBSTITUTIONS:	7336
+=== TOTAL NCHANGE:	13361
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	102413
+=== TOTAL TRUE WORDS RECALL:	0.891
+=== TOTAL TEST WORDS PRECISION:	0.909
+=== F MEASURE:	0.900
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.562
+=== IV Recall Rate:	0.912
+
+
+
+10 ep rad subchar
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	2822
+=== TOTAL DELETIONS:	3594
+=== TOTAL SUBSTITUTIONS:	8165
+=== TOTAL NCHANGE:	14581
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103600
+=== TOTAL TRUE WORDS RECALL:	0.887
+=== TOTAL TEST WORDS PRECISION:	0.894
+=== F MEASURE:	0.891
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.665
+=== IV Recall Rate:	0.901
+###	../../../../10eponred_subchar.txt	2822	3594	8165	14581	104372	103600	0.887	0.894	0.891	0.058	0.665	0.901
+
+20 ep rad subchar
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	2695
+=== TOTAL DELETIONS:	3777
+=== TOTAL SUBSTITUTIONS:	8016
+=== TOTAL NCHANGE:	14488
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103290
+=== TOTAL TRUE WORDS RECALL:	0.887
+=== TOTAL TEST WORDS PRECISION:	0.896
+=== F MEASURE:	0.892
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.654
+=== IV Recall Rate:	0.901
+###	../../../../20eponred_subchar.txt	2695	3777	8016	14488	104372	103290	0.887	0.896	0.892	0.058	0.654	0.901
+
+30 ep red subchar
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	2626
+=== TOTAL DELETIONS:	3605
+=== TOTAL SUBSTITUTIONS:	7868
+=== TOTAL NCHANGE:	14099
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	103393
+=== TOTAL TRUE WORDS RECALL:	0.890
+=== TOTAL TEST WORDS PRECISION:	0.899
+=== F MEASURE:	0.894
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.685
+=== IV Recall Rate:	0.903
+###	../../../../30eponred_subchar.txt	2626	3605	7868	14099	104372	103393	0.890	0.899	0.894	0.058	0.685	0.903
+
+best lstm 1 batch subcharlstm 10ep
+
+=== SUMMARY:
+=== TOTAL INSERTIONS:	1964
+=== TOTAL DELETIONS:	3525
+=== TOTAL SUBSTITUTIONS:	6630
+=== TOTAL NCHANGE:	12119
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	102811
+=== TOTAL TRUE WORDS RECALL:	0.903
+=== TOTAL TEST WORDS PRECISION:	0.916
+=== F MEASURE:	0.910
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.669
+=== IV Recall Rate:	0.917
+
+
+
+20 char rad crf
+
+TEST WORDS PRECISION:	0.714
+=== SUMMARY:
+=== TOTAL INSERTIONS:	5980
+=== TOTAL DELETIONS:	3688
+=== TOTAL SUBSTITUTIONS:	11319
+=== TOTAL NCHANGE:	20987
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	106664
+=== TOTAL TRUE WORDS RECALL:	0.856
+=== TOTAL TEST WORDS PRECISION:	0.838
+=== F MEASURE:	0.847
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.494
+=== IV Recall Rate:	0.878
+
+30 char rad crf
+
+TEST WORDS PRECISION:	0.889
+=== SUMMARY:
+=== TOTAL INSERTIONS:	5431
+=== TOTAL DELETIONS:	3033
+=== TOTAL SUBSTITUTIONS:	10142
+=== TOTAL NCHANGE:	18606
+=== TOTAL TRUE WORD COUNT:	104372
+=== TOTAL TEST WORD COUNT:	106770
+=== TOTAL TRUE WORDS RECALL:	0.874
+=== TOTAL TEST WORDS PRECISION:	0.854
+=== F MEASURE:	0.864
+=== OOV Rate:	0.058
+=== OOV Recall Rate:	0.532
+=== IV Recall Rate:	0.895
+
+
+NER
+
+baseline 10ep
+
+
+Sum of TP and FP = 6266
+Sum of TP and FN = 7061
+True positives = 5167, False positives = 1099, False negatives = 1894
+Precision = 0.825, Recall = 0.732, F1 = 0.775 (max=1)
+
+
+# lstm21epoc
+# Sum of TP and FP = 6239
+# Sum of TP and FN = 6921
+# True positives = 4895, False positives = 1344, False negatives = 2026
+# Precision = 0.785, Recall = 0.707, F1 = 0.744 (max=1)
+
+lstm 10ep rad 80batch
+
+Sum of TP and FP = 6211
+Sum of TP and FN = 7039
+True positives = 4936, False positives = 1275, False negatives = 2103
+Precision = 0.795, Recall = 0.701, F1 = 0.745 (max=1)
+
+Sum of TP and FP = 6600
+Sum of TP and FN = 7172
+True positives = 5479, False positives = 1121, False negatives = 1693
+Precision = 0.830, Recall = 0.764, F1 = 0.796 (max=1)
+
+
+lstm 14ep rad 128batch
+
+ds
+Sum of TP and FP = 5208
+Sum of TP and FN = 6708
+True positives = 3400, False positives = 1808, False negatives = 3308
+Precision = 0.653, Recall = 0.507, F1 = 0.571 (max=1)
+
+lstm 10ep charsub 80batch
+
+Sum of TP and FP = 6578
+Sum of TP and FN = 7076
+True positives = 5415, False positives = 1163, False negatives = 1661
+Precision = 0.823, Recall = 0.765, F1 = 0.793 (max=1)
+
+
+last 10ep rad sub char 80batch
+
+Sum of TP and FP = 6823
+Sum of TP and FN = 7044
+True positives = 5548, False positives = 1275, False negatives = 1496
+Precision = 0.813, Recall = 0.788, F1 = 0.800 (max=1)
+
+10ep char boc
+
+Sum of TP and FP = 6415
+Sum of TP and FN = 7129
+True positives = 5326, False positives = 1089, False negatives = 1803
+Precision = 0.830, Recall = 0.747, F1 = 0.786 (max=1)
+
+10ep char rad boc
+
+Sum of TP and FP = 6541
+Sum of TP and FN = 7168
+True positives = 5514, False positives = 1027, False negatives = 1654
+Precision = 0.843, Recall = 0.769, F1 = 0.804 (max=1)
